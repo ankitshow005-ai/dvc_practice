@@ -14,3 +14,5 @@ print(data)
 new_df = pd.concat([df,data], ignore_index = True)
 print(new_df)
 
+new_df.to_csv("data_location/raw_data_modified.csv", index=False)
+
